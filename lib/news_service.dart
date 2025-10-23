@@ -5,7 +5,7 @@ import 'package:pra4mobile/news_model.dart';
 
 class Api {
   final String apiKey = 'MASUKKAN_API_KEY_KAMU_DI_SINI';
-  final String baseUrl = 'https://newsapi.org/v2/everything?q=tesla&from=2025-09-23&sortBy=publishedAt&apiKey=7808036ef0af4557bad740543a063b6d';
+  final String baseUrl = 'https://newsapi.org/v2/everything?q=apple&from=2025-10-22&to=2025-10-22&sortBy=popularity&apiKey=517a1b68e5134b95b1a03d7f08039855';
 
   Future<List<Article>> FetchNews() async {
     final response = await http.get(Uri.parse('$baseUrl&apiKey=$apiKey'));

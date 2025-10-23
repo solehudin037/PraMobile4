@@ -104,7 +104,7 @@ void initState() {
                               ),
                                 title: Text(news.title ?? "Tidak ada judul"),
                                 subtitle: Text(
-                                "${news.sourceName}\n${news.description ?? ""}",
+                                "${news.Name}\n${news.description ?? ""}",
                                 maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
                             ),
